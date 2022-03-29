@@ -1,0 +1,48 @@
+body {
+  height: 5000px;
+}
+.left {
+  width: 50%;
+  background-color: purple;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.right {
+  width: 50%;
+  background-color: green;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.relative {
+  background-color: lightblue;
+  height: 250px;
+  padding: 30px;
+  margin: 10px;
+  display: flex;
+  position: relative;
+  border-radius: 40px;
+}
+.absolute {
+  height: 50%;
+  width: 50%;
+  background-color: red;
+  color: white;
+  position: absolute;
+  top: 75%;
+  left: 25%;
+  border-radius: 20px;
+  text-align: center;
+ /* bottom:50%;
+  right: 50%;*/
+}
+.fixed {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  position: fixed;
+  /*bottom: 0;
+  right: 0;*/
+  top: 50%;
+  left: 0;
+  border-end-end-radius: 20px;
+}
