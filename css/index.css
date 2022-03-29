@@ -1,48 +1,56 @@
-body {
-  height: 5000px;
+nav {
+    background-color: lightgray;
+    padding: 0px;
+    border-bottom: 1px solid darkgray;
+    border-top: 1px solid darkgray;
 }
-.left {
-  width: 50%;
-  background-color: purple;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+
+nav .navItem {
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(58, 58, 58);
+    margin: 0px;
 }
-.right {
-  width: 50%;
-  background-color: green;
-  border-bottom-right-radius: 20px;
-  border-top-right-radius: 20px;
+.navItem span {
+    color: white;
+    font-family: sans-serif;
 }
-.relative {
-  background-color: lightblue;
-  height: 250px;
-  padding: 30px;
-  margin: 10px;
-  display: flex;
-  position: relative;
-  border-radius: 40px;
+
+main .contentLeft {
+    width: 29%;
+    height: 700px;
+    /*display: block;*/
+    background-color: blue;
+    float: left;
+    z-index: 2;
 }
-.absolute {
-  height: 50%;
-  width: 50%;
-  background-color: red;
-  color: white;
-  position: absolute;
-  top: 75%;
-  left: 25%;
-  border-radius: 20px;
-  text-align: center;
- /* bottom:50%;
-  right: 50%;*/
+
+main .contentRight {
+    background-color: aqua;
+    height: 700px;
+    width: 70%;
+    float: left;
+    z-index: 3;
 }
-.fixed {
-  height: 200px;
-  width: 200px;
-  background-color: green;
-  position: fixed;
-  /*bottom: 0;
-  right: 0;*/
-  top: 50%;
-  left: 0;
-  border-end-end-radius: 20px;
+
+main .contentLeft .contentLeftTop {
+    height: 250px;
+    background-color: lightgray;
+    width: 100%;
+    display: block;
+    border: 1px solid darkgray;
+    padding-top: 20px;
+    text-align: center;
+}
+main .contentLeft .contentLeftBottom {
+    height: 450px;
+    background-color: lightgray;
+    width: 100%;
+    display: block;
+    border: 1px solid darkgray;
+    padding-left: 20px;
+    
+}
+img {
+    border-radius: 20px;
 }
