@@ -28,7 +28,7 @@ main .contentLeft {
 main .contentRight {
     background-color: aqua;
     height: 700px;
-    width: 70%;
+    width: 71%;
     float: left;
     z-index: 3;
 }
@@ -36,7 +36,7 @@ main .contentRight {
 main .contentLeft .contentLeftTop {
     height: 250px;
     background-color: lightgray;
-    width: 100%;
+    /*width: 100%;*/
     display: block;
     border: 1px solid darkgray;
     padding-top: 20px;
@@ -45,7 +45,7 @@ main .contentLeft .contentLeftTop {
 main .contentLeft .contentLeftBottom {
     height: 450px;
     background-color: lightgray;
-    width: 100%;
+    /*width: 100%;*/
     display: block;
     border: 1px solid darkgray;
     padding-left: 20px;
