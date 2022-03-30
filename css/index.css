@@ -1,3 +1,7 @@
+body {
+    position: absolute;
+}
+
 nav {
     background-color: lightgray;
     padding: 0px;
